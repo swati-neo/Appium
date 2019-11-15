@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AndroidNativeSuite]">
+  <parameter name="udid" value="ZY3227NQXT"/>
+  <parameter name="platform" value="Android 8.1.0"/>
+  <parameter name="systemPort" value="8200"/>
+  <test name="Android native app test on Android 8(failed)">
+    <parameter name="udid" value="ZY3227NQXT"/>
+    <parameter name="platform" value="Android 8.1.0"/>
+    <parameter name="systemPort" value="8200"/>
+    <classes>
+      <class name="tutorial.GoogleMaps">
+        <methods>
+          <include name="setup1"/>
+          <include name="extentSetup"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- tutorial.GoogleMaps -->
+    </classes>
+  </test> <!-- Android native app test on Android 8(failed) -->
+</suite> <!-- Failed suite [AndroidNativeSuite] -->

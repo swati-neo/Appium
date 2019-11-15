@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AndroidNativeSuite" verbose="1"> <!-- parallel="tests" thread-count="2"> -->
+    <test name="Android native app test on Android 8">
+        <parameter name="platform" value="Android 8.1.0"/>
+        <parameter name="udid" value="ZY3227NQXT"/>
+        <parameter name="systemPort" value="8200"/>
+        <classes>
+            <class name="tutorial.GoogleMaps" />
+        </classes>
+    </test>
+    <!-- <test name="Android native app test on Android 8">
+        <parameter name="platform" value="Android 8.1.0"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="systemPort" value="8201"/>
+        <classes>
+            <class name="xyz.GoogleMaps" />
+        </classes>
+    </test> -->
+</suite>

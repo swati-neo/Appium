@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AndroidNativeSuite" duration-ms="14081" started-at="2019-10-12T13:03:42Z" finished-at="2019-10-12T13:03:56Z">
+    <groups>
+    </groups>
+    <test name="Android native app test on Android 8" duration-ms="14081" started-at="2019-10-12T13:03:42Z" finished-at="2019-10-12T13:03:56Z">
+      <class name="tutorial.GoogleMaps">
+        <test-method status="FAIL" signature="extentSetup()[pri:0, instance:tutorial.GoogleMaps@13deb50e]" name="extentSetup" is-config="true" duration-ms="0" started-at="2019-10-12T18:33:42Z" finished-at="2019-10-12T18:33:42Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[org/apache/commons/lang3/StringUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: org/apache/commons/lang3/StringUtils
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findDefaultExecutable(AppiumServiceBuilder.java:136)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:194)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.buildDefaultService(AppiumDriverLocalService.java:190)
+	at tutorial.GoogleMaps.extentSetup(GoogleMaps.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:298)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.lang3.StringUtils
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setup1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tutorial.GoogleMaps@13deb50e]" name="setup1" is-config="true" duration-ms="14051" started-at="2019-10-12T18:33:42Z" finished-at="2019-10-12T18:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android 8.1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ZY3227NQXT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method status="SKIP" signature="testMethod()[pri:0, instance:tutorial.GoogleMaps@13deb50e]" name="testMethod" duration-ms="5" started-at="2019-10-12T18:33:56Z" finished-at="2019-10-12T18:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:tutorial.GoogleMaps@13deb50e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-10-12T18:33:56Z" finished-at="2019-10-12T18:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tutorial.GoogleMaps -->
+    </test> <!-- Android native app test on Android 8 -->
+  </suite> <!-- AndroidNativeSuite -->
+</testng-results>
